@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Dev Highlight",
+    "description": "Highlight/label localhost tabs",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+          "js": ["main.js"],
+          "matches": [
+            "https://*/*",
+            "http://*/*"
+          ]
+        }
+      ]
+  }

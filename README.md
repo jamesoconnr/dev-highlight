@@ -1,0 +1,2 @@
+# Dev Highight
+Dev Highlight is a Chrome extension intended for web developers with both the production and locally-hosted versions of the same website running in one browser. When these websites have the same title and icon it can be hard to differentiate between them at first glance, which is what  Dev Highlight aims to fix. This extension simply appends " - DEV" to any localhost tabs.
